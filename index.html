@@ -7,8 +7,148 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2685.5">
   <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
   </style>
 </head>
 <body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="vi"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;SafeZone - Trung Tâm Mô Phỏng &amp; Học Tập An Toàn Thông Tin&lt;/title&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="style.css"&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="app-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="logo-area"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;i class="fa-solid fa-shield-halved logo-icon"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="logo-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h1&gt;SAFEZONE&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Hệ thống diễn tập nhận diện lừa đảo trực tuyến&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="global-progress"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span style="font-size: 0.85rem; color: var(--text-secondary);"&gt;Chỉ số an toàn:&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="progress-track"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="progress-fill" id="global-progress-bar"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--green-safe);" id="global-progress-text"&gt;0%&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;nav class="tabs-navigation"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="tab-btn active" data-tab="lab-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;i class="fa-solid fa-flask-vial"&gt;&lt;/i&gt; 1. Phòng Thí Nghiệm SOC</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="tab-btn" data-tab="quiz-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;i class="fa-solid fa-triangle-exclamation"&gt;&lt;/i&gt; 2. Ứng Phó Khẩn Cấp</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="tab-btn" data-tab="handbook-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;i class="fa-solid fa-book-shield"&gt;&lt;/i&gt; 3. Cẩm Nang &amp; Cứu Hộ</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;main id="lab-section" class="tab-content active"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="lab-layout"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="sidebar-menu"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="menu-item active" data-scenario="phishing_sms"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i class="fa-solid fa-envelope-open-text"&gt;&lt;/i&gt; SMS Phishing</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="menu-item" data-scenario="fake_website"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i class="fa-solid fa-globe"&gt;&lt;/i&gt; Website giả mạo</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="menu-item" data-scenario="deepfake"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i class="fa-solid fa-video"&gt;&lt;/i&gt; Cuộc gọi Deepfake</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="menu-item" data-scenario="malware"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i class="fa-solid fa-android"&gt;&lt;/i&gt; Tệp mã độc (.APK)</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="sandbox-display"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 id="lab-scenario-title" style="font-size: 1.2rem; margin-bottom: 5px;"&gt;Khởi tạo bộ phân tích...&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span id="lab-threat-badge" class="badge-alert"&gt;Đang quét...&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="terminal-box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="terminal-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="dot dot-r"&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="dot dot-y"&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="dot dot-g"&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p id="lab-terminal-text" style="color: #A7F3D0; font-size: 0.95rem; white-space: pre-line;"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div style="margin-top: 20px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4 style="font-size: 0.95rem; font-family: var(--font-mono); margin-bottom: 12px; color: var(--text-primary);"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>🔍 PHIẾU BÁO CÁO CHI TIẾT DẤU HIỆU BẤT THƯỜNG</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;ul id="lab-analysis-box" style="font-size: 0.85rem; color: #E2E8F0; list-style-type: none; padding-left: 0;"&gt;&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/main&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="quiz-section" class="tab-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="quiz-card" id="quiz-module-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="badge-alert" id="quiz-badge"&gt;Mức độ: Đang phân tích&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 id="quiz-question-text" style="font-size: 1.2rem; margin-bottom: 20px; line-height: 1.5;"&gt;Đang nạp tình huống giả định...&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="quiz-options" id="quiz-options-wrapper"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="handbook-section" class="tab-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="handbook-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="rules-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="section-title"&gt;&lt;i class="fa-solid fa-gamepad" style="color: var(--cyan-glow);"&gt;&lt;/i&gt; Thử thách phản xạ quy tắc "6 KHÔNG"&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p style="font-size:0.85rem; color: var(--text-secondary); margin-bottom: 20px;"&gt;Click để lật thẻ học ghi nhớ, bấm nút xác nhận học để tăng Chỉ số an toàn:&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="cards-container-6no" id="no6-cards-container"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="rescue-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="section-title"&gt;&lt;i class="fa-solid fa-phone-flip" style="color: var(--red-alert);"&gt;&lt;/i&gt; Đường Dây Nóng Cứu Hộ Khẩn Cấp&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 20px;"&gt;Khi nghi ngờ bị lừa đảo hoặc đã chuyển tiền cho kẻ gian, hãy lập tức liên hệ các cơ quan sau để được can thiệp kịp thời:&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="rescue-channels-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="rescue-item-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="rescue-agency-name"&gt;Cục An toàn thông tin (AIS)&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="rescue-agency-role"&gt;Tiếp nhận báo cáo, điều phối kỹ thuật, thực hiện chặn hạ các website giả mạo, độc hại độc hại trên phạm vi toàn quốc.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="rescue-links-wrapper"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;a href="tel:02432096789" class="rescue-action-link"&gt;&lt;i class="fa-solid fa-headset"&gt;&lt;/i&gt; 024 3209 6789&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;a href="https://canhbao.khonggianmang.vn" target="_blank" class="rescue-action-link blue-channel"&gt;&lt;i class="fa-solid fa-globe"&gt;&lt;/i&gt; Trang báo cáo trực tuyến&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="rescue-item-card" style="border-left-color: var(--yellow-warning);"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="rescue-agency-name"&gt;Cục An ninh mạng &amp; Phòng chống tội phạm CNC (A05)&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="rescue-agency-role"&gt;Cơ quan nghiệp vụ Bộ Công an, thụ lý đơn thư tố giác tội phạm, thực hiện các biện pháp điều tra hình sự chiếm đoạt tài sản.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="rescue-links-wrapper"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;a href="tel:0692348515" class="rescue-action-link" style="color:var(--yellow-warning); background:rgba(255,215,0,0.08); border-color:rgba(255,215,0,0.2);"&gt;&lt;i class="fa-solid fa-phone"&gt;&lt;/i&gt; Đường dây nóng: 069.234.85.15&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;© 2026 SafeZone Platform. Hệ thống mô phỏng học liệu an toàn thông tin số.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="app.js"&gt;&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
 </body>
 </html>
